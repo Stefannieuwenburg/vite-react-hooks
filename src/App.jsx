@@ -1,13 +1,16 @@
-import { useState } from 'react'
+import { StateCounter } from './components/StateCounter'
+import {StateInput} from './components/StateInput'
+
 
 import './App.css'
 
 function App() {
   
   return (
-      <div className="App">
-          <h1>hallo</h1>
-      </div>
+      < >
+      <StateCounter />
+      <StateInput/>
+      </>
   );
 }
 
