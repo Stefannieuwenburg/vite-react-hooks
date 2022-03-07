@@ -1,5 +1,9 @@
-import { StateCounter } from './components/StateCounter'
-import {StateInput} from './components/StateInput'
+import {UseStateCounter} from './components/UseStateCounter'
+import {UseStateInput} from './components/UseStateInput'
+import {ReducerText} from './components/ReducerText'
+import {UseEffect} from './components/UseEffect'
+import {UseRef} from './components/UseRef'
+import {UseLayOutEffect} from './components/UseLayOutEffect'
 
 
 import './App.css'
@@ -7,9 +11,13 @@ import './App.css'
 function App() {
   
   return (
-      < >
-      <StateCounter />
-      <StateInput/>
+    < >
+      <ReducerText/>
+      <UseStateCounter />
+      <UseStateInput />
+      <UseEffect />
+      <UseRef />
+      <UseLayOutEffect />
       </>
   );
 }
